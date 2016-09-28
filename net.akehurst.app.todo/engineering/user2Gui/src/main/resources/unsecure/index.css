@@ -1,0 +1,16 @@
+body {
+	background-color : #ddd
+}
+
+h1 {
+	color : blue
+}
+
+.selectable {
+	background-color : #aaddff
+}
+
+.selectable:hover {
+	cursor: pointer;
+	background-color : #55aaff
+}

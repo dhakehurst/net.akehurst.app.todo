@@ -1,0 +1,19 @@
+{
+
+  activities: [
+    Project.create
+    Project.read
+    Project.update
+    Project.delete
+  ]
+
+
+  permissions: [
+    {
+       subject : dave
+       activity: Project.read
+       target: .*
+    }
+  ]
+
+}

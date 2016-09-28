@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Thu Feb 11 14:16:22 CET 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0152-d079-b121-00000e758b38 
+on database directory /Users/akehurst/git/net.akehurst.application.todo/todo/testDb/TestDb with class loader sun.misc.Launcher$AppClassLoader@27c170f0 
+Loaded from file:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b17
+user.dir=/Users/akehurst/git/net.akehurst.application.todo/todo/testDb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.10.5
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Feb 11 14:16:38 CET 2016: Shutting down Derby engine
+----------------------------------------------------------------
+Thu Feb 11 14:16:38 CET 2016:
+Shutting down instance a816c00e-0152-d079-b121-00000e758b38 on database directory /Users/akehurst/git/net.akehurst.application.todo/todo/testDb/TestDb with class loader sun.misc.Launcher$AppClassLoader@27c170f0 
+----------------------------------------------------------------

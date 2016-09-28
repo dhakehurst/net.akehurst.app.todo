@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/css/layout.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<title>ToDo - Home</title>
+	</head>
+	<body>
+
+  <header>
+  	<h1>ToDo - Home</h1>
+  	<nav>
+		<ul>
+	      <li><p id='username'><span class="glyphicon glyphicon-user"></span> Unknown</p></li>
+	      <li><p id='actionSignOut'><span class="glyphicon glyphicon-log-out"></span> Sign Out</p></li>
+	    </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <nav>
+    	<ul>
+			<li><p id='actionCreateNewList'>Create New List<p/></li>    	
+    	</ul>
+    </nav>
+    
+    <section>
+    
+    	<table id='tableAvailableLists' class="table table-striped">
+    		<thead>
+    			<tr>
+		        <th>List Id</th>
+		        <th>Description</th>
+		      </tr>
+    		</thead>
+    		<tbody>
+    			<tr class='table-row-template'>
+    				<td><p>${row.identity}</p></td>
+    				<td><p>${row.decription}</p></td>
+    			</tr>
+    		</tbody>
+    	</table>
+    
+    </section>
+
+    <aside>Ads</aside>
+  </main>
+  
+  <footer><p>Copyright (C) 2016 Dr. David H. Akehurst</p></footer>
+
+
+		<script>
+		  var rootPath = '${rootPath}'
+	      var stageId = '${stageId}'
+	    </script>
+
+		<script data-main='/${jsPath}/index.js' src='/lib/requirejs/2.3.1/require.min.js' type='text/javascript' charset='utf-8'></script>
+
+	</body>
+</html>

@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body > header {
+    z-index: 0;
+    flex: 0 64px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    
+    display: flex;
+}
+
+body > header > nav {
+	flex-grow: 1;
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-end;
+}
+
+body > header > nav > ul {
+	list-style: none outside none;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	margin: 0px;
+}
+
+
+
+body > header > nav > ul > li:hover {
+	cursor: pointer;
+}
+
+body > main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body > main > nav {
+    flex: 0 0 20px;
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	min-width: 0;
+}
+
+body > main > nav:hover {
+	flex: 0 0 256px;
+}
+
+body > main > nav * {
+	min-width: 0;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+body > main > section {
+    flex: 1;
+    order: 1;
+    overflow: auto;
+}
+
+body > main > aside {
+    flex: 0 0 256px;
+    order: 2;
+}
+body > footer {
+	flex: 0 64px;
+    display: flex;
+	background: AliceBlue;
+	align-items: center;
+	justify-content: center;
+}

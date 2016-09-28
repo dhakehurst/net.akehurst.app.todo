@@ -1,0 +1,44 @@
+body > header {
+  background-color: #ddaadd;
+  color: #000000; }
+
+body > header > h1 {
+  color: #004c84;
+  margin: 0px 10px; }
+
+body > header > nav > ul > li {
+  margin: 0px 10px;
+}
+
+body > main > nav {
+	background-color: #555;
+}
+
+body > main > nav li {
+	color: #eee;
+}
+
+body > main > section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+body > footer {
+  background-color: #ddaadd;
+  color: #000000; }
+
+#actionSignIn::before {
+  position: relative;
+  top: 1px;
+  right: 5px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  content: "\e163"; }
+
+.table-row-template {
+	display: none;
+}
+/*# sourceMappingURL=style.css.map */
